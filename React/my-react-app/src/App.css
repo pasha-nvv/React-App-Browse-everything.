@@ -461,6 +461,14 @@ body {
   padding-right: 18rem;
 }
 
+.th__two {
+  font-size: 2.5rem;
+  color: #6F6F6F;
+  font-weight: 400;
+  cursor: pointer;
+  border-bottom: 1px solid #6F6F6F;
+}
+
 .th__other {
   font-size: 2.5rem;
   color: #6F6F6F;
@@ -493,6 +501,14 @@ body {
 
 .p__table {
   font-size: 1.25rem;
+}
+
+@media (max-width: 800px) {
+  .td__table__hyper-view {
+    display: none;
+  } .th__other {
+    display: none;
+  }
 }
 
 .blocks__big__info {

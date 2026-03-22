@@ -163,7 +163,7 @@ const Main = () => {
       <table className="table__main"/>
         <tr>
           <th className="th__area">Area</th>
-          <th className="th__other">WebSurge</th>
+          <th className="th__two">WebSurge</th>
           <th className="th__other">HyperView</th>
         </tr>
         <tr>
