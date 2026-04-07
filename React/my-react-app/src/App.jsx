@@ -1,15 +1,14 @@
 import './App.css'
 import Header from './components/header'
 import Main from './components/Main';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return <>
-  <Header />
-  <Main />
-  <Footer />
+    <Header/>
+    <Main/>
+    <Footer/>
   </>
 }
-
 
 export default App;
