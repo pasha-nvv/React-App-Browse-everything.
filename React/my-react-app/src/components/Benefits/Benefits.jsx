@@ -1,10 +1,7 @@
 import "../../App.css"
 import BenefitsTitle from "./BenefitsTitle";
 import BenefitsDes from "./BenefitsDes";
-import BlockBenefitsFirst from "./BlockBenefitsFirst";
-import BlockBenefitsTwo from "./BLockBenefitsTwo";
-import BlockBenefitsThere from "./BlockBenefitsThere";
-import BlockBenefitsFour from "./BlockBenefitsFour";
+import BenefitsBlocks from "./BenefitsBlocks";
 
 const Benefits = () => {
   return (
@@ -13,10 +10,7 @@ const Benefits = () => {
       <BenefitsTitle></BenefitsTitle>
       <BenefitsDes></BenefitsDes>
       <div className="blocks__benefits">
-        <BlockBenefitsFirst></BlockBenefitsFirst>
-        <BlockBenefitsTwo></BlockBenefitsTwo>
-        <BlockBenefitsThere></BlockBenefitsThere>
-        <BlockBenefitsFour></BlockBenefitsFour>
+        <BenefitsBlocks />
       </div>
     </section>
   )

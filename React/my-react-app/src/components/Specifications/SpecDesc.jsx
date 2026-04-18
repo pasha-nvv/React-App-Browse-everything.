@@ -2,7 +2,7 @@ import "../../App.css"
 
 const SpecDesc = () => {
   return (
-      <h1 className="h1__specs">Why Choose Area?</h1>
+      <p className="p__main__specs">Why Choose Area?</p>
   )
 }
 
