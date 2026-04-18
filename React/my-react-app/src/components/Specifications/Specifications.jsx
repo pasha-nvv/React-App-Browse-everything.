@@ -2,16 +2,16 @@ import "../../App.css"
 import SpecTitle from "./SpecTitle";
 import SpecDesc from "./SpecDesc";
 import SpecText from "./SpecText";
-import ButtonPicture from "../Button/ButtonPicture";
+import ButtonPicture from "../UI/Button/ButtonPicture";
 
 const Specification = () => {
   return (
-      <section id="specifications" className="specification">
-      <SpecTitle/>
-      <SpecDesc/>
-      <SpecText/>
-      <ButtonPicture/>
-      </section>
+    <section id="specifications" className="specification">
+      <SpecTitle />
+      <SpecDesc />
+      <SpecText />
+      <ButtonPicture />
+    </section>
   )
 }
 
