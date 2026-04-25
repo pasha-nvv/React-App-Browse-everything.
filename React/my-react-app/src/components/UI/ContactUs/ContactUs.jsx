@@ -1,7 +1,7 @@
 import "../../../App.css"
 import ContactTitle from './ContactTitle';
 import ContactDec from './ContactDec';
-import Button from '../Button/Button';
+import ButtonConnect from './BuutonConnect';
 
 const ContactUs = () => {
   return (
@@ -9,7 +9,7 @@ const ContactUs = () => {
       <div className="block__connect">
         <ContactTitle />
         <ContactDec />
-        <Button />
+        <ButtonConnect />
       </div>
     </section>
   )

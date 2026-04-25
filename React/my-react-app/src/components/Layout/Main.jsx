@@ -1,10 +1,10 @@
 import "../../App.css"
-import Title from "../Title"
+import Title from "../UI/Title"
 import Brand from "../UI/Brand"
 import Benefits from "../UI/Benefits/Benefits"
 import HeroImg from "../UI/BIgImageBlock/HeroImg"
 import BigPicture from "../UI/BLockImage/BigPicture"
-import Specification from "../Specifications/Specifications"
+import Specification from "../UI/Specifications/Specifications"
 import Table from "../UI/MainTable/Table"
 import BigInfo from "../UI/BlockBigInfo/BigInfo"
 import Map from "../UI/BlockMap/Map"
@@ -14,7 +14,7 @@ import ContactUs from "../UI/ContactUs/ContactUs"
 const Main = () => {
   return (
     <main className="main">
-      <Title />
+      <Title/>
       <Brand />
       <Benefits />
       <HeroImg />

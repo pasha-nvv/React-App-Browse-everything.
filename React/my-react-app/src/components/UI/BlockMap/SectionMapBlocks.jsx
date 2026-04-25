@@ -10,8 +10,8 @@ const SectionMapBlocks = () => {
 
             <SectionMap
                 number='02'
-                subtitle='Get started'
-                info='With our intuitive setup, you’re up and running in minutes.' />
+                subtitle='Customize and Configure'
+                info='Adapt Area to your specific requirements and preferences.' />
 
             <SectionMap
                 number='03'

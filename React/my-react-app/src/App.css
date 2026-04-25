@@ -107,6 +107,21 @@ body {
   }
 }
 
+.btn__connect {
+  display: flex;
+  justify-content: center;
+  border: 0;
+  color: white;
+  background-color: #485C11;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 20px;
+  padding: 0.875rem 1.375rem;
+  gap: 5px;
+  cursor: pointer;
+  width: 10%;
+}
+
 .img__btn__header {
   object-fit: contain;
 }
